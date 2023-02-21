@@ -36,6 +36,16 @@ urlpatterns = [
     url(r'^university/penn/$', views.Universitiespenn, name="login"),
     url(r'^university/umich/$', views.Universitiesumich, name="login"),
 
+    url(r'^providers/$', views.Providers, name="login"),
+    url(r'^provider/coursera/$', views.ProvidersCoursera, name="login"),
+    url(r'^provider/edx/$', views.ProvidersEDX, name="login"),
+    url(r'^provider/futurelearn/$', views.ProvidersfutureLean, name="login"),
+    url(r'^provider/udemy/$', views.ProvidersUdemy, name="login"),
+    url(r'^provider/swayam/$', views.Providersswayam, name="login"),
+    url(r'^provider/linkedin-learning/$', views.ProvidersLinkedin_learning, name="login"),
+    url(r'^provider/skillshare/$', views.ProviderSkillShare, name="login"),
+
+
     
 
 ]

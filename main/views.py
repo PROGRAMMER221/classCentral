@@ -94,3 +94,27 @@ def Universitiespenn(request):
 
 def Universitiesumich(request):
     return render(request, 'university/umich.html')
+
+def Providers(request):
+    return render(request, 'providers.html')
+
+def ProvidersCoursera(request):
+    return render(request, "provider/coursera.html")
+
+def ProvidersEDX(request):
+    return render(request, "provider/edx.html")
+
+def ProvidersfutureLean(request):
+    return render(request, "provider/futurelearn.html")
+
+def ProvidersUdemy(request):
+    return render(request, "provider/udemy.html")
+
+def Providersswayam(request):
+    return render(request, "provider/swayam.html")
+
+def ProvidersLinkedin_learning(request):
+    return render(request, "provider/linkedin-learning.html")
+
+def ProviderSkillShare(request):
+    return render(request, "provider/skillshare.html")
